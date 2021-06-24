@@ -6,4 +6,4 @@ with open(r'pick+_result.txt', 'r') as infile, \
     data = infile.read()
     data = data.replace("+", "")
     outfile.write(data)
-    os.system("/home/ubuntu/python_scripts/download_objects.py data")
+#    os.system("/home/ubuntu/python_scripts/download_objects.py data")
